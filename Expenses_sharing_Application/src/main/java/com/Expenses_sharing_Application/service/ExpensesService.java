@@ -20,6 +20,7 @@ public class ExpensesService {
     public List<Expenses> getAllExpenses() {
     	
         List<Expenses> list = expenseRepository.findAll();
+        System.out.println(list);
         return list;
         		
     }
